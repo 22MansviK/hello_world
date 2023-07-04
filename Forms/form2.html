@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Job Application</h1>
+</head>
+<body>
+    <form>
+        <label for="text">Name:</label><br><br>
+        <input type="text" name="text" id="text"><br>
+
+        <label for="email">Email:</label><br><br>
+        <input type="text" name="email" id="email"><br>
+
+        <label for="phone">Phone No:</label><br><br>
+        <input type="tel" name="phone" id="phone"><br>
+
+        <label for="resume">Resume:</label><br><br>
+        <input type="file" name="resume" id="resume"><br>
+
+        <label for="experience">Experience (years):</label><br><br>
+        <input type="number" name="experience" id="experience" min="0" max="50"><br>
+
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" name="html" id="html"><br>
+            <label for="html">HTML</label><br><br>
+
+            <input type="checkbox" name="css" id="css"><br>
+            <label for="css">CSS</label><br><br>
+
+            <input type="checkbox" name="javascript" id="javascript"><br>
+            <label for="javascript">JavaScript</label><br><br>
+        </fieldset><br>
+
+        <label for="education">Highest Education:</label><br><br>
+        <select name="education" id="education">
+            <option value="High School">High School</option>
+            <option value="Undergraduate">Undergraduate</option>
+            <option value="Postgraduate">Postgraduate</option>
+        </select><br><br>
+
+        <label for="available">Availiblity:</label><br><br>
+        
+        <input type="radio" name="fulltime" id="fulltime1"><br>
+        <label for="fulltime1">Full-time</label><br><br>
+
+        <input type="radio" name="fulltime" id="parttime1"><br>
+        <label for="parttime1">Part-time</label><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+
+
+    </form>
+</body>
+</html>
